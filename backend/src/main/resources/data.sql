@@ -19,6 +19,33 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('1.0
 INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0',TIMESTAMP WITH TIME ZONE '2021-07-14T10:00:00Z',TIMESTAMP WITH TIME ZONE '2022-07-14T10:00:00Z',1);
 
 
-INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Trilha Html','trilha completa HTML',1,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,1)
-INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Forum','Tire suas Duvidas',2,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',2,1)
-INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Lives','Lives Exclusivas',3,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',0,1)
+INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Trilha Html','trilha completa HTML',1,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,1);
+INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Forum','Tire suas Duvidas',2,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',2,1);
+INSERT INTO tb_resource (title,description,position,img_uri,type,offer_id) VALUES ('Lives','Lives Exclusivas',3,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',0,1);
+
+INSERT INTO tb_section (title,description,position,img_uri,resource_id,prerequisite_id) VALUES ('Capitulo 1','Neste Capitulo Vamos Comecar',1,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,null);
+INSERT INTO tb_section (title,description,position,img_uri,resource_id,prerequisite_id) VALUES ('Capitulo 2','Neste Capitulo Vamos Continuar',2,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,1);
+INSERT INTO tb_section (title,description,position,img_uri,resource_id,prerequisite_id) VALUES ('Capitulo 3','Neste Capitulo Vamos Finalizar',3,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
