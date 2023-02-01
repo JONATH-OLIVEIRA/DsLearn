@@ -28,8 +28,8 @@ INSERT INTO tb_section (title,description,position,img_uri,resource_id,prerequis
 INSERT INTO tb_section (title,description,position,img_uri,resource_id,prerequisite_id) VALUES ('Capitulo 3','Neste Capitulo Vamos Finalizar',3,'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png',1,2);
 
 
-
-
+INSERT INTO tb_enrollment (user_id,offer_id,enroll_Moment, refund_Moment,available,only_Update) VALUES (1,1,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',null,true,false);
+INSERT INTO tb_enrollment (user_id,offer_id,enroll_Moment, refund_Moment,available,only_Update) VALUES (2,1,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',null,true,false);
 
 
 
